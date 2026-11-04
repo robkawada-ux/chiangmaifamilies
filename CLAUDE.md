@@ -28,7 +28,7 @@ Chiang Mai Families is the Chiang Mai sister site of BKK Families (bkkfamilies.c
 - Cards are 1200x630, mountain green with hills and a road up to a chedi. Regenerate them (and the app icons) with `python3 scripts/og/make_cards.py`. Articles without a hero image use `public/images/og/blog-default.png`.
 
 ## Site architecture
-- Live sections: home, /schools (directory + detail pages), /activities (directory + detail pages), /blog (titled "Guides", empty at launch, hidden from the homepage and sitemap until the first article), /contact (incl. #advertise).
+- Live sections: home, /schools (directory + detail pages), /activities (directory + detail pages), /blog (titled "Guides"; first article "Yi Peng and Loy Krathong 2026 in Chiang Mai with Kids" published 4 Nov 2026, hero photo supplied by Rob at public/images/articles/yi-peng-loy-krathong-chiang-mai-with-kids/; refresh the same URL each November), /contact (incl. #advertise).
 - Not built yet for Chiang Mai: healthcare, camps, playgroups, learning support, school breaks. `schoolBreaks.ts` and `schoolFees.ts` are kept with empty data because the school pages use their types and helpers.
 - Articles are TypeScript objects in `src/lib/articles.ts`. Body paragraphs support `[label](/path)` links and `**bold**`. Byline renders as "by Chiang Mai Families".
 - No legacy redirects (new domain). The bkkfamilies redirect map was removed from `next.config.mjs`.
