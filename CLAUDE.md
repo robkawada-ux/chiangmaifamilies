@@ -10,7 +10,8 @@ Chiang Mai Families is the Chiang Mai sister site of BKK Families (bkkfamilies.c
 
 ## Domain & deployment
 - Domain chiangmaifamilies.com bought Nov 2026 (Namecheap). Canonical host is `www.chiangmaifamilies.com`, set once in `SITE` in `src/lib/seo.ts`.
-- TODO: create the Vercel project, point Namecheap DNS (A @ and CNAME www, Vercel's project-specific values), apex 308 to www.
+- Live since 4 Nov 2026. One Vercel project, "chiangmaifamilies", holds www.chiangmaifamilies.com (production) and chiangmaifamilies.com (308 to www), plus chiangmaifamilies.vercel.app.
+- Namecheap Advanced DNS: A @ 216.198.79.1 and CNAME www 0c595bc1cab50a52.vercel-dns-017.com. (Vercel's project-specific values).
 - TODO: Search Console Domain property verified by DNS TXT (as on phuketfamilies), GA4 property (put the ID in `GA_MEASUREMENT_ID`, currently empty so no tag loads).
 - TODO: info@chiangmaifamilies.com forwarder in Namecheap. Until then `CONTACT_EMAIL` is info@bkkfamilies.com.
 
