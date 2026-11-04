@@ -95,7 +95,6 @@ const SCHOOL_ENTRIES: School[] = [
     founded: 1993,
     ageRange: "Ages 2 to 18",
     languageOfInstruction: "English",
-    feeRange: "423,400 to 813,400 THB/year",
     description: "Lanna opened in 1993 as Northern Thailand's first British international school, growing from a small family-run school into a campus in Baan Waen, Hang Dong, with more than 900 students from around 40 countries. It is non-religious.\n\nIt follows the English National Curriculum, with the International Early Years and Primary Curricula in the younger years, then Cambridge IGCSEs and A Levels. Lanna is WASC accredited and the only FOBISIA member in Northern Thailand, and opened a new STEAM Innovation Centre in 2026.\n\nAlongside Prem, it is one of the two most expensive schools in Chiang Mai, and the default choice for families who want a full British pathway to A Level. Expect a registration fee of around 90,000 THB on entry.",
   },
   {
@@ -108,7 +107,6 @@ const SCHOOL_ENTRIES: School[] = [
     founded: 2011,
     ageRange: "Ages 2 to 18",
     languageOfInstruction: "English, Thai",
-    feeRange: "321,000 to 594,000 THB/year",
     description: "Panyaden was founded in 2011 in Nam Phrae, Hang Dong, and is known for two things: Buddhist values and mindfulness woven into the school day (it is open to families of all faiths), and a campus built largely from earth, bamboo and other natural materials.\n\nYounger children follow the British Early Years Foundation Stage and the International Primary Curriculum, older students the International Middle Years Curriculum, and the school is an IB World School for the Diploma Programme. Lessons are in English and Thai, with Mandarin offered. It has around 480 students and is WASC accredited.\n\nPanyaden suits families looking for a calmer, eco-minded school with a strong sense of community. It does not run a school bus, so most families live nearby. Its own fee schedule lists a 75,000 THB admissions fee and a refundable security deposit.",
   },
   {
@@ -121,7 +119,6 @@ const SCHOOL_ENTRIES: School[] = [
     founded: 1954,
     ageRange: "Ages 3 to 18",
     languageOfInstruction: "English",
-    feeRange: "341,700 to 590,200 THB/year",
     description: "CMIS traces its roots to 1954, when returning missionaries started the Chiang Mai Children's Centre, and it describes itself as the first international school registered outside Bangkok. It took its current name in 1985 and sits in Wat Ket, near the Ping River, one of the few international schools inside the city.\n\nIt follows an American curriculum with a wide choice of Advanced Placement courses, including AP Capstone. The school is affiliated with the Church of Christ in Thailand and is open to students of all faiths, from around 20 to 30 countries. It is WASC accredited.\n\nCMIS suits families who want an American high school diploma and a central location. Ask about its enrolment fee and continuing enrolment deposit when you apply.",
   },
   {
@@ -134,7 +131,6 @@ const SCHOOL_ENTRIES: School[] = [
     founded: 2017,
     ageRange: "Ages 2 to 18",
     languageOfInstruction: "English, Chinese, Thai",
-    feeRange: "324,300 to 564,300 THB/year",
     description: "SISB Chiang Mai opened in 2017 as the northern campus of the Bangkok-based Singapore International School group, on Hussadhisawee Road in Sri Phum, close to the old city.\n\nIt is trilingual, teaching in English with Chinese and Thai. Early years follow the British EYFS, primary uses Singapore maths and science, and secondary leads to Cambridge IGCSEs and A Levels, with the Duke of Edinburgh's Award on offer. The group has announced a second phase on the Chiang Mai campus that will add around 300 places.\n\nSISB suits families who want strong maths and serious Mandarin alongside English. Its enrolment fee of 150,000 THB can be paid up front or spread over several years.",
   },
   {
@@ -147,7 +143,6 @@ const SCHOOL_ENTRIES: School[] = [
     founded: 1997,
     ageRange: "18 months to 18 years",
     languageOfInstruction: "English",
-    feeRange: "120,300 to 524,800 THB/year",
     description: "APIS opened in 1997 and has two campuses: a primary campus in Mae Hia, on the southwest edge of the city, and a rural main campus with four boarding houses on the Hang Dong to Samoeng road in Ban Pong, about 25 km out.\n\nIt follows an American curriculum and has been authorised for the IB Diploma since 2020. It has been WASC accredited since 2002, and describes itself as Chiang Mai's first internationally accredited boarding school, taking boarders from age 6. The high school is small, around 100 students, and largely Chinese.\n\nAPIS is one of two Chiang Mai schools with boarding, and its younger years are among the more affordable in the city. Joining costs include an entrance fee and a registration deposit that is credited against tuition.",
   },
   {
@@ -172,7 +167,6 @@ const SCHOOL_ENTRIES: School[] = [
     founded: 1993,
     ageRange: "Ages 3 to 18",
     languageOfInstruction: "English",
-    feeRange: "304,500 to 521,800 THB/year",
     description: "NIS was founded in 1993 with 39 students on Chang Khlan Road, and describes itself as the oldest secular international school in Chiang Mai. It moved to its 17-acre campus in San Phi Suea, north of the city, in 2003, and has around 450 students.\n\nIt follows an American curriculum based on the Common Core, with Advanced Placement courses in high school, and has been WASC accredited since 2000. Its motto, Education through diversity, reflects a mixed Thai and international student body.\n\nNIS suits families living north of the city who want an American programme without a religious affiliation. Joining costs include a registration fee and refundable book and damage deposits.",
   },
   {
@@ -198,7 +192,7 @@ const SCHOOL_ENTRIES: School[] = [
     founded: 2019,
     ageRange: "Ages 2 to 18",
     languageOfInstruction: "English, Chinese",
-    feeRange: "230,000 to 414,800 THB/year",
+    feeRange: "210,000 to 394,800 THB/year",
     description: "ACIS opened in August 2019 on the Chiang Mai to Lampang Superhighway in Saraphi, as part of the Ambassador Education Group, next door to its sister schools UCIS and Ambassador Bilingual School.\n\nIt follows an American Common Core curriculum with Advanced Placement courses, STEM and robotics, and daily Chinese lessons, with Thai and Italian also taught. It has around 550 students and is WASC accredited. Its first Grade 12 class is due to graduate in 2027.\n\nACIS suits families who want an American programme with serious Mandarin. Fees include a 20,000 THB annual capital fee, and there is an entrance fee on joining.",
   },
   {
@@ -222,7 +216,6 @@ const SCHOOL_ENTRIES: School[] = [
     website: "https://sbscm.ac.th/",
     ageRange: "Ages 1 to 18",
     languageOfInstruction: "English, Thai",
-    feeRange: "248,200 to 405,000 THB/year",
     description: "SBS Chiangmai is the Chiang Mai campus of Satit Bilingual School of Rangsit University, in Ban Waen, Hang Dong, with around 450 students.\n\nIt runs a Cambridge pathway to IGCSE and A Level alongside a Thai bilingual track, plus an Intensive English Course for students in Years 4 to 8 who need to catch up. The Duke of Edinburgh's Award and Model United Nations are on offer, and much of the student body speaks Chinese.\n\nSBS suits families who want a Cambridge route at mid-range fees, or a bilingual option. Expect an admission fee of around 100,000 THB and refundable deposits on entry.",
   },
   {
@@ -235,7 +228,6 @@ const SCHOOL_ENTRIES: School[] = [
     founded: 2017,
     ageRange: "Ages 3 to 18",
     languageOfInstruction: "English",
-    feeRange: "201,600 to 386,400 THB/year",
     description: "UCIS opened in 2017 on the Chiang Mai to Lampang Superhighway in Saraphi. It was started by the family behind Little Stars kindergarten and Ambassador Bilingual School, and is the flagship of the Ambassador Education Group, alongside ACIS and BCIS.\n\nIt follows an American curriculum from Pre-K to Grade 12, with Advanced Placement courses, a house system and a Falcons sports programme. It is WASC accredited.\n\nUCIS is one of the more affordable American schools in the city, and suits families living on the east and south side. Joining costs include an entrance fee and a one-off book fee.",
   },
   {
@@ -248,7 +240,6 @@ const SCHOOL_ENTRIES: School[] = [
     founded: 1999,
     ageRange: "Ages 5 to 18",
     languageOfInstruction: "English",
-    feeRange: "309,000 to 379,000 THB/year",
     description: "Grace opened in 1999 with 176 students, founded to educate the children of international Christian workers in the region. In 2019 it moved to a new purpose-built campus in Harn Kaew, Hang Dong, and it now has around 600 students from 25 countries.\n\nIt is a Christian school teaching an American college-prep curriculum from Kindergarten to Grade 12, with Advanced Placement courses, accredited by ACSI and WASC. It also supports families in remote areas with distance learning and homeschooling.\n\nGrace suits families who want a Christian American education. Mission workers have their own discounted rates, and there is an annual capitalization fee on top of the tuition shown.",
   },
   {
@@ -261,7 +252,6 @@ const SCHOOL_ENTRIES: School[] = [
     founded: 2022,
     ageRange: "Ages 2 to 18",
     languageOfInstruction: "English",
-    feeRange: "196,350 to 346,500 THB/year",
     description: "BCIS opened in September 2022 near Canal Road in Nong Khwai, Hang Dong, as the Ambassador Education Group's first British school. It started with nursery and primary and is growing into secondary, with around 450 students from more than 30 countries.\n\nIt follows the British EYFS and Cambridge Primary, leading to IGCSEs and BTECs. Homework is optional below secondary, and the school is a CIS member.\n\nBCIS is one of the most affordable British options in Chiang Mai. Expect an entrance fee of around 80,000 THB and a one-off book fee.",
   },
   {
@@ -274,7 +264,6 @@ const SCHOOL_ENTRIES: School[] = [
     founded: 1994,
     ageRange: "Ages 3 to 18",
     languageOfInstruction: "German",
-    feeRange: "146,000 to 328,000 THB/year",
     description: "The Christliche Deutsche Schule Chiang Mai was founded in 1994 by the Marburger Mission Foundation with the support of the German Embassy, and sits in Tha Wang Tan, Saraphi.\n\nIt is an officially recognised German school abroad, supported by Germany's Central Agency for Schools Abroad, and teaches the German national curriculum through to the German International Abitur. Teaching is in German, and the school runs a preparation course for children who need to catch up. It also has a forest school section.\n\nCDSC is the natural choice for German-speaking families, and one of the most affordable schools in the city.",
   },
   {
@@ -287,7 +276,6 @@ const SCHOOL_ENTRIES: School[] = [
     founded: 2024,
     ageRange: "From age 2",
     languageOfInstruction: "French, English",
-    feeRange: "178,690 to 256,800 THB/year (one source)",
     description: "Windfield opened its Chiang Mai campus on Charoen Rat Road in Wat Ket in September 2024, as an offshoot of the French school on Koh Samui. It is billed as the first French-curriculum school in Chiang Mai.\n\nIt has a French section following the French national curriculum and a British section alongside it, with very small classes. It has links with the Alliance Française in Chiang Mai.\n\nWindfield suits French-speaking families and those who want a bilingual French and English start. It is still very new, so ask which year groups are open and confirm the current fees.",
   },
   {
