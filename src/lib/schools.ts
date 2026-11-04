@@ -82,7 +82,6 @@ const SCHOOL_ENTRIES: School[] = [
     founded: 2001,
     ageRange: "Ages 3 to 18",
     languageOfInstruction: "English",
-    feeRange: "416,000 to 814,000 THB/year",
     description: "Prem opened in 2001 on a large rural campus in Huay Sai, Mae Rim, about 25 km north of the city, and is named after the statesman General Prem Tinsulanonda. It is part of the Traidhos Three-Generation Community for Learning, and has around 500 students.\n\nIt is an IB World School and says it is the only school in Thailand to run all four IB programmes: the Primary Years, Middle Years and Diploma Programmes, plus the Career-related Programme, which it was the first school in Southeast Asia to offer. Outdoor learning, sustainability and the arts are a big part of school life, and the school is accredited by CIS and NEASC.\n\nPrem is one of only two Chiang Mai schools with boarding, which is why it draws students from around Thailand and overseas, and it sits in the top fee bracket in the city. On joining, budget for a foundation fee of around 130,000 THB and a refundable deposit.",
   },
   {
@@ -179,8 +178,7 @@ const SCHOOL_ENTRIES: School[] = [
     founded: 2018,
     ageRange: "Ages 2 to 17",
     languageOfInstruction: "English",
-    feeRange: "224,400 to 440,000 THB/year",
-    description: "Meritton is a small, family-run British school founded in 2018 in Nong Khwai, Hang Dong, with around 300 students. Its name means town of merits.\n\nIt follows the British EYFS, then Cambridge Primary and Lower Secondary, leading to IGCSE, and runs a values-based education programme with daily mindfulness. The school lists Cambridge, COBIS and ONESQA accreditation, and the campus has a pool, a grass pitch and vegetable gardens.\n\nMeritton suits families who want a British school with a smaller, warmer feel at mid-range fees. It does not run a school bus. Students currently finish at IGCSE, so ask about plans for A Levels.",
+    description: "Meritton is a small, family-run British school founded in 2018 in Nong Khwai, Hang Dong, with around 300 students. Its name means town of merits.\n\nIt follows the British EYFS, then Cambridge Primary and Lower Secondary, leading to IGCSE and a Year 12 A Level year, and runs a values-based education programme with daily mindfulness. The school lists Cambridge, COBIS and ONESQA accreditation, and the campus has a pool, a grass pitch and vegetable gardens.\n\nMeritton suits families who want a British school with a smaller, warmer feel at mid-range fees. It does not run a school bus. The school currently runs to Year 12, so ask about plans for the final A Level year.",
   },
   {
     name: "Americana Chinese International School (ACIS)",

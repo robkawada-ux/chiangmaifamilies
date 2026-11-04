@@ -83,6 +83,58 @@ export interface SchoolFees {
 // Sources and caveats: the claude.ai project doc claude/chiangmai-schools.md.
 // Until a school is added, its page shows the indicative feeRange from schools.ts.
 export const schoolFees: Record<string, SchoolFees> = {
+  "meritton-british-international-school": {
+    status: "published",
+    feeYear: "2026/27",
+    sourceUrl: "https://merittonbritish.ac.th/wp-content/uploads/2026/06/Schedule-of-Fees-and-Charges_AY-2026-1.pdf",
+    verified: "2026-11-04",
+    rows: [
+      { label: "Pre-Nursery", stage: "early-years", annual: 224400 },
+      { label: "Nursery - Reception", stage: "early-years", annual: 238600 },
+      { label: "Year 1 - Year 2", stage: "primary", annual: 285000 },
+      { label: "Year 3 - Year 6", stage: "primary", annual: 307200 },
+      { label: "Year 7 - Year 9", stage: "lower-secondary", annual: 343000 },
+      { label: "Year 10 - Year 11 (IGCSE)", stage: "upper-secondary", annual: 387000 },
+      { label: "Year 12 (A Level)", stage: "sixth-form", annual: 440000 },
+    ],
+    oneTime: { application: 3000, registration: 60000, refundableDeposit: 6000 },
+    extras: [
+      { label: "School lunch and snacks", annualFrom: 21600, annualTo: 23600, compulsory: true },
+      { label: "Books, applications and learning platforms", annualFrom: 2000, annualTo: 15000, compulsory: true },
+      { label: "Capital improvement fee", annualFrom: 11000, compulsory: true },
+      { label: "School activities", annualFrom: 7000, compulsory: true },
+      { label: "Chromebook usage, Year 7 up", annualFrom: 5000, annualTo: 7000, compulsory: true },
+      { label: "Accident insurance", annualFrom: 1300, compulsory: true },
+      { label: "English Language Learner support, if needed", annualFrom: 70000, compulsory: false },
+    ],
+    excludes: ["uniform", "exam-fees", "residential-trips"],
+    note: "Billed over two terms. Lunch, books, activities, insurance and an 11,000 THB capital fee are charged to every pupil on top of tuition. Enrolment is 45,000 THB for a second child and waived from the third.",
+  },
+  "prem-tinsulanonda-international-school": {
+    status: "published",
+    feeYear: "2026/27",
+    sourceUrl: "https://ptis.ac.th/wp-content/uploads/2026/08/Tuition-Fee-AY2026-27-Prem-International-School.pdf",
+    verified: "2026-11-04",
+    rows: [
+      { label: "Early Years 1-3", stage: "early-years", annual: 416000 },
+      { label: "Grade 1", stage: "primary", annual: 446000 },
+      { label: "Grade 2-3", stage: "primary", annual: 490000 },
+      { label: "Grade 4-5", stage: "primary", annual: 604000 },
+      { label: "Grade 6-7", stage: "lower-secondary", annual: 730000 },
+      { label: "Grade 8", stage: "lower-secondary", annual: 772000 },
+      { label: "Grade 9-12", stage: "upper-secondary", annual: 814000 },
+    ],
+    oneTime: { application: 6000, registration: 130000, refundableDeposit: 50000 },
+    extras: [
+      { label: "Weekly boarding (5 nights)", annualFrom: 350000, compulsory: false },
+      { label: "Full boarding (7 nights)", annualFrom: 478000, compulsory: false },
+      { label: "Lunch and snacks, day students (10,050 to 11,950 a term)", annualFrom: 40200, annualTo: 47800, compulsory: false },
+      { label: "School bus, by distance (17,100 to 20,700 a term)", annualFrom: 68400, annualTo: 82800, compulsory: false },
+      { label: "EAL support, if needed (22,000 a term)", annualFrom: 88000, compulsory: false },
+    ],
+    excludes: ["lunch", "transport", "exam-fees"],
+    note: "Fees are billed over four terms, with 2% off for paying the whole year up front. The 130,000 THB foundation fee is charged for the first two children only, and siblings get 10% to 50% off tuition and boarding. The Intensive English Programme costs 696,000 THB a year. Boarding includes meals, health insurance and laundry.",
+  },
   "lanna-international-school": {
     status: "published",
     feeYear: "2026/27",
