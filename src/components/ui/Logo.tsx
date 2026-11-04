@@ -1,0 +1,37 @@
+/**
+ * The Chiang Mai Families mark: the BKK Families four-dot mark in the
+ * northern palette (terracotta top, misty blue right, mountain green
+ * bottom, rice green left).
+ *
+ * Geometry is taken directly from the master logo file: four circles of
+ * r=9 with centres offset 23 from the middle. 
+ *
+ * The canvas is 68 rather than 64, which puts 2 units of padding around
+ * the mark. The circles previously sat exactly on the viewBox edge, so
+ * subpixel rounding shaved the top and bottom dots at small sizes. The
+ * mark itself is unchanged, it just is not flush to the edge any more.
+ *
+ * Two other copies of this mark exist and MUST use these same numbers
+ * and colours:
+ *   - src/app/icon.svg      (favicon)
+ *   - src/app/favicon.ico   (legacy favicon, multi-size)
+ *   - src/app/apple-icon.png (iOS home screen)
+ */
+export default function Logo({ size = 36 }: { size?: number }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 68 68"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-hidden="true"
+      className="shrink-0 overflow-visible"
+    >
+      <circle cx="34" cy="11" r="9" fill="#C8553D" />
+      <circle cx="57" cy="34" r="9" fill="#6FB3C8" />
+      <circle cx="34" cy="57" r="9" fill="#2F6B4F" />
+      <circle cx="11" cy="34" r="9" fill="#8DC63F" />
+    </svg>
+  );
+}

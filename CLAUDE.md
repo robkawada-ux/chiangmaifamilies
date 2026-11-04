@@ -1,0 +1,44 @@
+# chiangmaifamilies.com: Project Context
+
+## Overview
+Chiang Mai Families is the Chiang Mai sister site of BKK Families (bkkfamilies.com) and Phuket Families (phuketfamilies.com). It was started on 4 Nov 2026 as a copy of the phuketfamilies codebase (which is itself a copy of bkkfamilies) in its own repo, with the Phuket data stripped out and the brand swapped to a northern palette. No Facebook group; the site leans on BKK Families and the Bangkok Expat Families group for reach.
+
+## Repo & local setup
+- GitHub repo: `robkawada-ux/chiangmaifamilies` (public)
+- Suggested local path: `/Users/robertkawada/Projects/chiangmaifamilies` (on Roberts-iMac-2), cloned from GitHub. Bangkok is `~/Projects/bkkfamilies`, Phuket `~/Projects/phuketfamilies`.
+- Same GitHub-to-Vercel workflow as the other two sites. Rob runs commands one at a time in Terminal.
+
+## Domain & deployment
+- Domain chiangmaifamilies.com bought Nov 2026 (Namecheap). Canonical host is `www.chiangmaifamilies.com`, set once in `SITE` in `src/lib/seo.ts`.
+- TODO: create the Vercel project, point Namecheap DNS (A @ and CNAME www, Vercel's project-specific values), apex 308 to www.
+- TODO: Search Console Domain property verified by DNS TXT (as on phuketfamilies), GA4 property (put the ID in `GA_MEASUREMENT_ID`, currently empty so no tag loads).
+- TODO: info@chiangmaifamilies.com forwarder in Namecheap. Until then `CONTACT_EMAIL` is info@bkkfamilies.com.
+
+## Brand
+- Name Chiang Mai Families, tagline "YOUR CHIANG MAI ROADMAP" (always caps and bold), same layout and cartoon road theme as BKK Families.
+- Palette in `tailwind.config.ts`. Token NAMES are inherited (purple, orange...), only values changed: purple = mountain green #2F6B4F, purple-dark = teak brown #2E2420, orange = Lanna terracotta #C8553D, teal = hill blue #3F8297, green = rice green #8DC63F, sand = rice paper #F5EEE1.
+- Logo: the four-dot mark, terracotta top, misty blue #6FB3C8 right, mountain green bottom, rice green left. Keep `Logo.tsx`, `src/app/icon.svg`, `favicon.ico` and `apple-icon.png` in sync.
+- Homepage hero has cartoon hills (`Mountains` in `Road.tsx`) under the stat-card roads.
+- Nav has "Bangkok" and "Phuket" links to the sister sites; the footer cross-links both.
+
+## Share images (Facebook previews), required on every page
+- Every page must emit an og:image. `og()` in `src/lib/seo.ts` attaches the nearest section card (`SECTION_CARDS`: /schools, /blog), falling back to the homepage card.
+- Cards are 1200x630, mountain green with hills and a road up to a chedi. Regenerate them (and the app icons) with `python3 scripts/og/make_cards.py`. Articles without a hero image use `public/images/og/blog-default.png`.
+
+## Site architecture
+- Live sections: home, /schools (directory + detail pages), /blog (titled "Guides", empty at launch, hidden from the homepage and sitemap until the first article), /contact (incl. #advertise).
+- Not built yet for Chiang Mai: healthcare, camps, activities, playgroups, learning support, school breaks. `schoolBreaks.ts` and `schoolFees.ts` are kept with empty data because the school pages use their types and helpers.
+- Articles are TypeScript objects in `src/lib/articles.ts`. Body paragraphs support `[label](/path)` links and `**bold**`. Byline renders as "by Chiang Mai Families".
+- No legacy redirects (new domain). The bkkfamilies redirect map was removed from `next.config.mjs`.
+
+## Schools directory
+- 17 live schools in `src/lib/schools.ts`, researched 4 Nov 2026. Sources, addresses, one-time fees and open questions are in the claude.ai project doc `claude/chiangmai-schools.md`.
+- Four areas: city (inside the Superhighway ring), north (Mae Rim, San Phi Suea), southwest (Hang Dong, Mae Hia, Canal Road), southeast (Saraphi, Lampang Superhighway). No school was found to the east. `SchoolAreaMap.tsx` is a simplified city map with Doi Suthep, the Ping River, the old city and the airport.
+- `feeRange` holds the published range, 2026/27 unless the string carries an older year in brackets, e.g. "(2025/26)"; "(one source)" marks a single-guide figure. The page and meta description read both. Budget tags use the middle of the range (under/over 400k, same line as the other sites).
+- Mill Hill International School Thailand is in the file with `pending: true` (hidden) until its campus location, website and fees are confirmed.
+- Still open: Varee and Chiang Mai Montessori websites could not be loaded; most fees come from international-schools-database.com and should be checked against the schools' own PDFs (Prem, Lanna, Meritton and SBS publish 2026/27 PDFs). Fees verified on the school's own page: Panyaden, SISB, BCIS, Grace, UCIS, APIS primary. Move these into `schoolFees.ts` per year group when read.
+- Later: a bilingual schools section (Wichai Wittaya, Ambassador Bilingual School and Academy), Thai EP programmes, nurseries.
+
+## Tools
+- `scripts/linkcheck.sh` checks external school website URLs (use parallelism 4).
+- `scripts/og/make_cards.py` renders share cards and icons.
