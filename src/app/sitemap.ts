@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { SCHOOLS } from "@/lib/schools";
+import { ACTIVITIES } from "@/lib/activities";
 import { ARTICLES } from "@/lib/articles";
 import { SITE } from "@/lib/seo";
 
@@ -9,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
     { url: baseUrl, changeFrequency: "weekly", priority: 1 },
     { url: `${baseUrl}/schools`, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/activities`, changeFrequency: "weekly", priority: 0.9 },
     { url: `${baseUrl}/contact`, changeFrequency: "yearly", priority: 0.3 },
     // The guides listing joins the sitemap once it has something in it.
     ...(ARTICLES.length > 0
@@ -29,5 +31,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...articlePages, ...schoolPages];
+  const activityPages: MetadataRoute.Sitemap = ACTIVITIES.map((a) => ({
+    url: `${baseUrl}/activities/${a.slug}`,
+    lastModified: new Date(a.lastVerified),
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
+  return [...staticPages, ...articlePages, ...schoolPages, ...activityPages];
 }

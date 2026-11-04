@@ -4,7 +4,8 @@ import Link from "next/link";
 import StatCard from "@/components/ui/StatCard";
 import ArticleCard from "@/components/ui/ArticleCard";
 import { ARTICLES } from "@/lib/articles";
-import { SCHOOLS, AREAS, ALL_CURRICULA } from "@/lib/schools";
+import { SCHOOLS, AREAS } from "@/lib/schools";
+import { ACTIVITIES } from "@/lib/activities";
 import { TopBanner, SidebarSlot } from "@/components/ui/AdSlot";
 import { StatRoads, Roundabout, Mountains } from "@/components/ui/Road";
 
@@ -70,8 +71,8 @@ export default function HomePage() {
           </h1>
           <p className="mt-5 max-w-xl text-lg text-white/90">
             Every international school in Chiang Mai in one place, compared
-            by area, curriculum and fees, plus practical guides for families
-            moving to or living in the city.
+            by area, curriculum and fees, plus days out and weekly classes for
+            families moving to or living in the city.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
@@ -97,7 +98,7 @@ export default function HomePage() {
           <div className="relative z-10 grid grid-cols-2 gap-4 md:grid-cols-4">
             <StatCard value={String(SCHOOLS.length)} label="International Schools" color="green" />
             <StatCard value={String(areaCount)} label="Areas of the City" color="teal" />
-            <StatCard value={String(ALL_CURRICULA.length)} label="Curricula Compared" color="purple" />
+            <StatCard value={String(ACTIVITIES.length)} label="Things to Do With Kids" color="purple" />
             <StatCard value="14 yrs" label="Helping Families in Thailand" color="orange" />
           </div>
         </div>
@@ -164,12 +165,12 @@ export default function HomePage() {
                 </p>
               </a>
               <Link
-                href="/blog"
+                href="/activities"
                 className="rounded-xl bg-orange p-6 text-white transition hover:opacity-90"
               >
-                <h3 className="font-heading text-xl font-bold">Guides</h3>
+                <h3 className="font-heading text-xl font-bold">Things to Do</h3>
                 <p className="mt-1 text-sm text-white/90">
-                  Practical guides for families living in Chiang Mai.
+                  {ACTIVITIES.length} days out and weekly classes for kids.
                 </p>
               </Link>
             </div>

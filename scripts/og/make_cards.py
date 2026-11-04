@@ -35,12 +35,14 @@ def card(title, sub):
 CARDS = {
     "src/app/opengraph-image.png": ("Schools and family life in Chiang Mai", "International schools compared by area, curriculum and fees"),
     "src/app/schools/opengraph-image.png": ("International Schools in Chiang Mai", "Compared by area, curriculum and budget"),
+    "src/app/activities/opengraph-image.png": ("Things to Do With Kids in Chiang Mai", "Days out and weekly classes, with real prices"),
     "src/app/blog/opengraph-image.png": ("Family life in Chiang Mai, explained", "Practical guides for families in the north"),
     "public/images/og/blog-default.png": ("Guides for Chiang Mai families", "From the team behind BKK Families"),
 }
 ALT = {
     "src/app/opengraph-image.alt.txt": "The Chiang Mai Families four-dot logo on a mountain green card with cartoon hills and a road winding up to a temple, and the words Your Chiang Mai Roadmap: schools and family life in Chiang Mai.",
     "src/app/schools/opengraph-image.alt.txt": "The Chiang Mai Families four-dot logo on a mountain green card with cartoon hills and a road, and the words International Schools in Chiang Mai.",
+    "src/app/activities/opengraph-image.alt.txt": "The Chiang Mai Families four-dot logo on a mountain green card with cartoon hills and a road, and the words Things to Do With Kids in Chiang Mai.",
     "src/app/blog/opengraph-image.alt.txt": "The Chiang Mai Families four-dot logo on a mountain green card with cartoon hills and a road, and the words Family life in Chiang Mai, explained.",
 }
 

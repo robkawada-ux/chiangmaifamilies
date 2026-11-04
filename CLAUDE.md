@@ -12,7 +12,8 @@ Chiang Mai Families is the Chiang Mai sister site of BKK Families (bkkfamilies.c
 - Domain chiangmaifamilies.com bought Nov 2026 (Namecheap). Canonical host is `www.chiangmaifamilies.com`, set once in `SITE` in `src/lib/seo.ts`.
 - Live since 4 Nov 2026. One Vercel project, "chiangmaifamilies", holds www.chiangmaifamilies.com (production) and chiangmaifamilies.com (308 to www), plus chiangmaifamilies.vercel.app.
 - Namecheap Advanced DNS: A @ 216.198.79.1 and CNAME www 0c595bc1cab50a52.vercel-dns-017.com. (Vercel's project-specific values).
-- TODO: Search Console Domain property verified by DNS TXT (as on phuketfamilies), GA4 property (put the ID in `GA_MEASUREMENT_ID`, currently empty so no tag loads).
+- Google Search Console: Domain property for chiangmaifamilies.com, verified by a DNS TXT record in Namecheap (4 Nov 2026), so no verification meta tag in `layout.tsx`. Sitemap submitted and read successfully.
+- TODO: GA4 property (put the ID in `GA_MEASUREMENT_ID`, currently empty so no tag loads).
 - TODO: info@chiangmaifamilies.com forwarder in Namecheap. Until then `CONTACT_EMAIL` is info@bkkfamilies.com.
 
 ## Brand
@@ -23,12 +24,12 @@ Chiang Mai Families is the Chiang Mai sister site of BKK Families (bkkfamilies.c
 - Nav has "Bangkok" and "Phuket" links to the sister sites; the footer cross-links both.
 
 ## Share images (Facebook previews), required on every page
-- Every page must emit an og:image. `og()` in `src/lib/seo.ts` attaches the nearest section card (`SECTION_CARDS`: /schools, /blog), falling back to the homepage card.
+- Every page must emit an og:image. `og()` in `src/lib/seo.ts` attaches the nearest section card (`SECTION_CARDS`: /schools, /activities, /blog), falling back to the homepage card.
 - Cards are 1200x630, mountain green with hills and a road up to a chedi. Regenerate them (and the app icons) with `python3 scripts/og/make_cards.py`. Articles without a hero image use `public/images/og/blog-default.png`.
 
 ## Site architecture
-- Live sections: home, /schools (directory + detail pages), /blog (titled "Guides", empty at launch, hidden from the homepage and sitemap until the first article), /contact (incl. #advertise).
-- Not built yet for Chiang Mai: healthcare, camps, activities, playgroups, learning support, school breaks. `schoolBreaks.ts` and `schoolFees.ts` are kept with empty data because the school pages use their types and helpers.
+- Live sections: home, /schools (directory + detail pages), /activities (directory + detail pages), /blog (titled "Guides", empty at launch, hidden from the homepage and sitemap until the first article), /contact (incl. #advertise).
+- Not built yet for Chiang Mai: healthcare, camps, playgroups, learning support, school breaks. `schoolBreaks.ts` and `schoolFees.ts` are kept with empty data because the school pages use their types and helpers.
 - Articles are TypeScript objects in `src/lib/articles.ts`. Body paragraphs support `[label](/path)` links and `**bold**`. Byline renders as "by Chiang Mai Families".
 - No legacy redirects (new domain). The bkkfamilies redirect map was removed from `next.config.mjs`.
 
@@ -40,6 +41,12 @@ Chiang Mai Families is the Chiang Mai sister site of BKK Families (bkkfamilies.c
 - Verified fees (4 Nov 2026), per year group in `schoolFees.ts`, each read from the school's own page or PDF: Prem and Meritton (from Rob's screenshots of their PDFs), Lanna, Panyaden, SISB, APIS, NIS, CMIS (2025/26, the latest it publishes), SBS, UCIS, Grace, BCIS, CDSC. Windfield is in `feesOnEnquiry` (the Chiang Mai campus publishes no fees; the group's schedule is Koh Samui's). Left out on purpose: APIS's semester-two-only Pre-N row (in the note) and CDSC's French Intensive upper-school row (column pairing unclear).
 - Still on database ranges (`feeRange`, labelled on the page): Varee and Chiang Mai Montessori (sites would not load). ACIS shows its own 2026/27 PDF's min to max only, because the PDF does not say which figure is which grade band. Varee and Chiang Mai Montessori websites still need checking in a browser.
 - Later: a bilingual schools section (Wichai Wittaya, Ambassador Bilingual School and Academy), Thai EP programmes, nurseries.
+
+## Activities directory (added 4 Nov 2026)
+- 27 listings in `src/lib/activities.ts` (16 days out, 11 weekly classes), same model and honesty rules as phuketfamilies: `status` "confirmed" only when read on the operator's own page (11 are), everything else "check" with its source. Prices omitted when not published or when sources disagree (Grand Canyon, Pongyang, Doi Suthep foreigner fee, Arts and Cultural Centre).
+- Zones are Chiang Mai specific, incl. "Superhighway and Central Festival" and "Location to confirm" (the three kids' Muay Thai classes, which come from a booking site with no addresses). Category "Swimming, riding and sport" also holds horse riding and basketball.
+- No elephant camps or sanctuaries, no tiger attractions. Never link flightofthegibbon.com (redirects to a gambling site).
+- Research notes, gaps and ideas: claude.ai project doc `claude/chiangmai-activities.md`.
 
 ## Tools
 - `scripts/linkcheck.sh` checks external school website URLs (use parallelism 4).

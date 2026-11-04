@@ -42,6 +42,7 @@ export const CONTACT_EMAIL = "info@bkkfamilies.com";
  */
 const SECTION_CARDS = [
   "/schools",
+  "/activities",
   "/blog",
 ];
 
