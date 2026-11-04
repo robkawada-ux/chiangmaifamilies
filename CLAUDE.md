@@ -14,7 +14,7 @@ Chiang Mai Families is the Chiang Mai sister site of BKK Families (bkkfamilies.c
 - Namecheap Advanced DNS: A @ 216.198.79.1 and CNAME www 0c595bc1cab50a52.vercel-dns-017.com. (Vercel's project-specific values).
 - Google Search Console: Domain property for chiangmaifamilies.com, verified by a DNS TXT record in Namecheap (4 Nov 2026), so no verification meta tag in `layout.tsx`. Sitemap submitted and read successfully.
 - TODO: GA4 property (put the ID in `GA_MEASUREMENT_ID`, currently empty so no tag loads).
-- TODO: info@chiangmaifamilies.com forwarder in Namecheap. Until then `CONTACT_EMAIL` is info@bkkfamilies.com.
+- Email: Namecheap Mail Settings set to Email Forwarding, forwarder info@chiangmaifamilies.com to robkawada@gmail.com (4 Nov 2026, tested working). `CONTACT_EMAIL` is info@chiangmaifamilies.com.
 
 ## Brand
 - Name Chiang Mai Families, tagline "YOUR CHIANG MAI ROADMAP" (always caps and bold), same layout and cartoon road theme as BKK Families.

@@ -14,7 +14,7 @@ export const SISTER_SITE = { name: "BKK Families", city: "Bangkok", url: "https:
 export const GA_MEASUREMENT_ID = "";
 
 /** Public contact inbox. Change here only. */
-export const CONTACT_EMAIL = "info@bkkfamilies.com";
+export const CONTACT_EMAIL = "info@chiangmaifamilies.com";
 
 /**
  * Build a complete openGraph block for a page.
