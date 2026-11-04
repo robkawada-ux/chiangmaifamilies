@@ -45,7 +45,7 @@ Chiang Mai Families is the Chiang Mai sister site of BKK Families (bkkfamilies.c
 ## Activities directory (added 4 Nov 2026)
 - 27 listings in `src/lib/activities.ts` (16 days out, 11 weekly classes), same model and honesty rules as phuketfamilies: `status` "confirmed" only when read on the operator's own page (11 are), everything else "check" with its source. Prices omitted when not published or when sources disagree (Grand Canyon, Pongyang, Doi Suthep foreigner fee, Arts and Cultural Centre).
 - Zones are Chiang Mai specific, incl. "Superhighway and Central Festival" and "Location to confirm" (the three kids' Muay Thai classes, which come from a booking site with no addresses). Category "Swimming, riding and sport" also holds horse riding and basketball.
-- No elephant camps or sanctuaries, no tiger attractions. Never link flightofthegibbon.com (redirects to a gambling site).
+- No elephant camps or sanctuaries, no tiger attractions. Never link flightofthegibbon.com or chiangmainightsafari.com (both now show gambling content; the Night Safari site was found hijacked on 4 Nov 2026, so its listing has no website or source link).
 - Research notes, gaps and ideas: claude.ai project doc `claude/chiangmai-activities.md`.
 
 ## Tools

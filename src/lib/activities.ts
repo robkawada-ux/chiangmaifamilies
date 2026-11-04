@@ -10,8 +10,8 @@
 //   recent guide or listing, and the UI tells parents to confirm first.
 // - closedNote marks somewhere that is closed right now.
 // - No elephant camps or sanctuaries, and no tiger attractions.
-// - Never link flightofthegibbon.com: the domain now redirects to a
-//   gambling site.
+// - Never link flightofthegibbon.com or chiangmainightsafari.com: both
+//   domains now show gambling content.
 //
 // Research notes, sources and what was left out: the claude.ai project
 // doc claude/chiangmai-activities.md.
@@ -258,11 +258,13 @@ export const ACTIVITIES: Activity[] = [
     price: { note: "Children under 100cm free; 101 to 140cm pay the child rate (updated 1 Sep 2026). Ticket prices are sold online and were not shown on the pages we could read.", unit: "entry" },
     description: "A government-run safari park where an evening tram takes you past giraffes, zebras and kangaroos in the savanna zone and lions, white tigers and hyenas in the predator zone. There is also a walking trail and daytime tram, so it works for a late afternoon into early evening outing.",
     worthKnowing: "The night tram leaves every 30 minutes from 5:30pm and takes about an hour, so arriving around 5pm avoids a late night for small kids.",
-    website: "https://chiangmainightsafari.com",
+    // Website and source link removed 4 Nov 2026: chiangmainightsafari.com
+    // now shows gambling spam (hijacked). Never link it. Details were read
+    // there earlier the same day; confirm hours and prices by phone.
     phone: "053 999 000",
     email: "ns_saraban@nightsafari.or.th",
-    status: "confirmed",
-    sourceUrl: "https://chiangmainightsafari.com/en/visit/",
+    status: "check",
+    sourceUrl: "",
     lastVerified: "2026-11-04",
   },
   {

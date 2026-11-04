@@ -188,9 +188,13 @@ export default async function ActivityPage({
               checked {formatDate(a.lastVerified)}.
             </>
           )}{" "}
-          <a href={a.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">
-            Source
-          </a>
+          {a.sourceUrl ? (
+            <a href={a.sourceUrl} target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">
+              Source
+            </a>
+          ) : (
+            <span>Call ahead to confirm.</span>
+          )}
         </div>
 
         <div className="mt-8 grid gap-3 sm:grid-cols-2">
