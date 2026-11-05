@@ -11,7 +11,7 @@ export const SISTER_SITE = { name: "BKK Families", city: "Bangkok", url: "https:
  * property (not the bkkfamilies or phuketfamilies one). Empty string = no GA
  * tag on the site.
  */
-export const GA_MEASUREMENT_ID = "";
+export const GA_MEASUREMENT_ID = "G-ZCW72XHT08";
 
 /** Public contact inbox. Change here only. */
 export const CONTACT_EMAIL = "info@chiangmaifamilies.com";

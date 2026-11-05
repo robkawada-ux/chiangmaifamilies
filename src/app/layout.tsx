@@ -6,10 +6,9 @@ import Footer from "@/components/ui/Footer";
 import { Analytics } from "@vercel/analytics/react";
 import { SITE, SITE_NAME, GA_MEASUREMENT_ID } from "@/lib/seo";
 
-// Google Analytics: chiangmaifamilies.com needs its own GA4 property, set by
-// GA_MEASUREMENT_ID in lib/seo.ts (empty until created). Plan is to verify
-// Search Console by a DNS TXT record, as on phuketfamilies, so no
-// verification meta tag is needed here.
+// Google Analytics: chiangmaifamilies.com has its own GA4 property, set by
+// GA_MEASUREMENT_ID in lib/seo.ts. Search Console is verified by a DNS TXT
+// record, so no verification meta tag is needed here.
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE),
