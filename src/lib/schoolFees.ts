@@ -371,7 +371,7 @@ export const schoolFees: Record<string, SchoolFees> = {
     status: "published",
     feeYear: "2026/27",
     sourceUrl: "https://cdsc.ac.th/wp-content/uploads/2026/05/26-27_Fees_English.pdf",
-    verified: "2026-11-04",
+    verified: "2026-11-05",
     rows: [
       { label: "Kindergarten, half day (7:50-13:00), age 3-6", stage: "early-years", annual: 146000 },
       { label: "Kindergarten, full day (7:50-15:30, Fridays to 13:30), age 3-6", stage: "early-years", annual: 168000 },
@@ -382,14 +382,16 @@ export const schoolFees: Record<string, SchoolFees> = {
       { label: "Class 7 - 8, GFL students (only grade 7)", stage: "lower-secondary", annual: 371000 },
       { label: "Grades 9 - 10 (excluding upper secondary school)", stage: "upper-secondary", annual: 305000 },
       { label: "Grades 10 - 12 (upper school)", stage: "sixth-form", annual: 328000 },
+      { label: "Grades 10 - 12 (upper school), French Intensive", stage: "sixth-form", annual: 452000 },
     ],
     oneTime: { registration: 50000, refundableDeposit: 50000 },
     extras: [
       { label: "Kindergarten lunch", annualFrom: 10000, compulsory: true },
+      { label: "German as a second language (DaZ) or learning support, per weekly lesson (14,000 in a group of 4 or more, 17,000 in a small group of up to 3)", annualFrom: 14000, annualTo: 17000, compulsory: false },
     ],
     includes: ["textbooks"],
     excludes: ["lunch", "eal"],
-    note: "Teaching is in German. Students learning German as a foreign language pay a higher rate in classes 5 to 7. The admission fee is 20,000 THB for kindergarten.",
+    note: "Teaching is in German. Students learning German as a foreign language pay a higher rate in classes 5 to 7. The admission fee is 20,000 THB for kindergarten, and it is credited in full when a child moves up to the school section. Sibling discount on the admission fee and on tuition or childcare fees: 10% for the second child, 15% for the third and 20% from the fourth. French Intensive and sibling details confirmed by the school, 5 Nov 2026.",
   },
 };
 

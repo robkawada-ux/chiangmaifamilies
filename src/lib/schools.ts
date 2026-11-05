@@ -262,7 +262,8 @@ const SCHOOL_ENTRIES: School[] = [
     founded: 1994,
     ageRange: "Ages 3 to 18",
     languageOfInstruction: "German",
-    description: "The Christliche Deutsche Schule Chiang Mai was founded in 1994 by the Marburger Mission Foundation with the support of the German Embassy, and sits in Tha Wang Tan, Saraphi.\n\nIt is an officially recognised German school abroad, supported by Germany's Central Agency for Schools Abroad, and teaches the German national curriculum through to the German International Abitur. Teaching is in German, and the school runs a preparation course for children who need to catch up. It also has a forest school section.\n\nCDSC is the natural choice for German-speaking families, and one of the most affordable schools in the city.",
+    description: "Founded in 1994, the Christian German School Chiang Mai is the only officially recognised German school abroad in Thailand offering the German International Abitur. From kindergarten to graduation, children learn in a warm, close-knit community guided by the school's motto, “Hand in Hand: learning and living together”.\n\nThe kindergarten welcomes children from age 3, with half-day and full-day options. German is the main language of daily life and learning, complemented by English and Thai.\n\nIn the school section, students follow the German curriculum in small classes, and the Abitur opens doors to universities in Germany, Europe and around the world.\n\nThe green campus in Saraphi offers plenty of space to learn, play and explore.\n\nFamilies who would like to get to know CDSC can book a school tour and meet the team in person. To arrange a visit, contact the school office on +66 (0) 52 080 712 or at info@cdsc.ac.th.",
+    photo: "/images/schools/christian-german-school-chiang-mai.jpg",
   },
   {
     name: "Windfield International School Chiang Mai",
