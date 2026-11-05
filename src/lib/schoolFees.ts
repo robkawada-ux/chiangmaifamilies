@@ -287,7 +287,7 @@ export const schoolFees: Record<string, SchoolFees> = {
     status: "published",
     feeYear: "2026/27",
     sourceUrl: "https://sbscm.ac.th/wp-content/uploads/sites/2/2026/03/Updated-SBS-Chiangmai-School-Fees-AY202627.pdf",
-    verified: "2026-11-04",
+    verified: "2026-11-05",
     rows: [
       { label: "Tiger Cubs (1-2 years)", stage: "early-years", annual: 227300 },
       { label: "Toddler (2-3 years)", stage: "early-years", annual: 217900 },
@@ -309,7 +309,7 @@ export const schoolFees: Record<string, SchoolFees> = {
     ],
     includes: ["lunch", "snacks"],
     excludes: ["textbooks", "uniform", "exam-fees"],
-    note: "Tuition includes lunch and a daily snack. A 12,000 THB campus levy is added every year.",
+    note: "Tuition includes lunch, a daily snack, accident insurance, an annual medical check-up and selected field trips. A 12,000 THB campus levy is added every year. English language support costs 15,000 THB a term in primary (after school, twice a week) and 20,000 THB a term in secondary. The Intensive English Course for Years 1 to 9 costs 508,000 THB a year including tuition, meals and the campus levy. Sibling discount on tuition: 10% for the second child, 20% for the third. Schedule confirmed by the school, 5 Nov 2026.",
   },
   "unity-concord-international-school": {
     status: "published",

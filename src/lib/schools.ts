@@ -213,8 +213,8 @@ const SCHOOL_ENTRIES: School[] = [
     budget: "under400k",
     website: "https://sbscm.ac.th/",
     ageRange: "Ages 1 to 18",
-    languageOfInstruction: "English, Thai",
-    description: "SBS Chiangmai is the Chiang Mai campus of Satit Bilingual School of Rangsit University, in Ban Waen, Hang Dong, with around 450 students.\n\nIt runs a Cambridge pathway to IGCSE and A Level alongside a Thai bilingual track, plus an Intensive English Course for students in Years 4 to 8 who need to catch up. The Duke of Edinburgh's Award and Model United Nations are on offer, and much of the student body speaks Chinese.\n\nSBS suits families who want a Cambridge route at mid-range fees, or a bilingual option. Expect an admission fee of around 100,000 THB and refundable deposits on entry.",
+    languageOfInstruction: "English, Thai, Mandarin Chinese (an option in secondary)",
+    description: "SBS Chiangmai is the Chiang Mai campus of Satit Bilingual School of Rangsit University, in Ban Waen, Hang Dong, with around 450 students.\n\nIt is a Cambridge International School and Cambridge exam centre, taking students through Cambridge Checkpoint, IGCSE, AS and A Level, alongside a Thai bilingual track. Mandarin Chinese is an option in secondary. An Intensive English Course for Years 1 to 9, in classes of up to 10, helps students who need to catch up. The Duke of Edinburgh's Award and Model United Nations are on offer, and much of the student body speaks Chinese.\n\nSBS suits families who want a Cambridge route at mid-range fees, or a bilingual option. Expect an admission fee of around 100,000 THB and refundable deposits on entry.",
   },
   {
     name: "Unity Concord International School (UCIS)",
