@@ -19,7 +19,7 @@ import RichText, { stripRichText } from "@/components/ui/RichText";
  * REGENERATING ITS CARD. Three cards here were left showing old titles after
  * a round of rewrites before anyone noticed.
  */
-const OG_CARDS = new Set<string>([]);
+const OG_CARDS = new Set<string>(["christmas-holiday-camps-chiang-mai-2026"]);
 
 /** Generated card if there is one (it carries the headline), else the hero photo, else the blog default. */
 function shareImage(slug: string, heroImage?: string) {

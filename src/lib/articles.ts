@@ -35,6 +35,79 @@ export interface Article {
 // sections until the first one is published.
 export const ARTICLES: Article[] = [
   {
+    "slug": "christmas-holiday-camps-chiang-mai-2026",
+    "title": "Christmas Holiday Camps in Chiang Mai 2026: Dates, Ages and Prices",
+    "category": "Camps",
+    "date": "2026-11-05",
+    "excerpt": "Every Christmas holiday camp in Chiang Mai we can confirm for December 2026, from a sports camp that runs right through the break to outdoor camps in Hang Dong and nature camps in Mae Rim, plus school break dates and January options.",
+    "body": [
+      "Chiang Mai's international schools break up between mid and late December, and some go back in early January while others return later, so many working parents need a week or two of camp. This guide covers every Christmas camp we can confirm for 2026, a football camp that ran all last winter, and the camps that run on into January for visiting families. Every camp here also has a listing in our [Chiang Mai holiday camps directory](/camps), where you can filter by age and dates.",
+      "School breaks differ more in Chiang Mai than in Bangkok, so check your own calendar first. **Prem** breaks from 14 December. **Grace** finishes on 17 December and goes back on 5 January. **APIS** breaks from 19 December and goes back on 11 January. Other schools publish their calendars as images or colour-coded charts, so look at your own school's calendar or ask the office.",
+      "**[Prime Kids Club's Winter Sports Camp](/camps/prime-kids-club-sports-camp)** runs the longest, every weekday from **14 December to 8 January**, for ages 5 to 12. Children play football, basketball, badminton and track and field, and those who meet the entry requirements also swim. Days run from 9am to 3pm with lunch, and it costs **9,500 baht a week**, or **6,500** at the early bird rate, with single days at 2,000 baht. Sign-up opens on **14 November**, and the club says early bird and day fees are non-refundable.",
+      "**[Beaver Club's Christmas and New Year camps](/camps/beaver-club-truepath-camps)** in Ban Waen, Hang Dong, run from **21 to 25 December** and **28 December to 1 January**, for ages 4 to 13. These are outdoor camps with children grouped by age, a field trip and a party each week, from 9.30am to 4pm with a buffet lunch. Prices are on request, by LINE or phone.",
+      "**[Traidhos Camps](/camps/traidhos-camps)**, on the green campus in Mae Rim that the Traidhos community shares with Prem, runs a **Merry Christmas Camp from 14 to 18 December** for ages 4 to 8, with nature, science and holiday activities. The 2026 price is not fully published yet; last year's Christmas camp cost 11,000 baht with lunch and two snacks.",
+      "Traidhos also runs three camps in the week of **4 to 8 January**, which suits schools that go back later: the Junior Naturalist day camp for young children, the first Winter English Day Camp for ages 6 to 12 at **15,000 baht** with lunch, and the first week of its Tennis and English Camp, at 15,000 baht for a full day from 9am to 3.30pm or 7,000 baht for tennis only from 9am to 11am.",
+      "**[GROW UP Chiangmai](/camps/grow-up-chiangmai-football-camp)** ran an indoor football camp at All Star Arena in Pa Tan every week from 1 December 2025 to 27 February 2026, for ages 4 to 13, at 5,500 baht a week with lunch. It has not announced this winter's dates yet, and the details come from a public listing rather than its own page, so call before planning around it.",
+      "The cool season brings visiting families to Chiang Mai, and several camps run on through January and February, in term time for most local schools. Traidhos runs English day camps and tennis camps each week until late February, plus residential English weeks from 24 January. The [APIS Winter Camp](/camps/apis-winter-camp) runs from **17 January to 5 February** for ages 9 to 13, with day, weekly boarding and full boarding options, and Beaver Club runs four winter weeks between 25 January and 19 February. All of these are in the [camps directory](/camps) under January to February.",
+      "Book early, because the smaller camps cap their groups, and check what is included. Lunch is included at every confirmed camp in this guide, but transport usually is not, so the location matters: Traidhos is in Mae Rim to the north, Beaver Club in Hang Dong to the south, and Prime Kids does not publish its address, so ask where drop-off is. If you only need a few days, Prime Kids sells single days.",
+      "We do not list elephant camps, elephant sanctuaries or any camp that includes an elephant visit. Spending part of the holiday in Bangkok? Our sister site BKK Families has a [holiday camps directory for Bangkok](https://www.bkkfamilies.com/camps) too."
+    ],
+    "headings": [
+      {
+        "beforeParagraph": 1,
+        "text": "When Chiang Mai schools break up"
+      },
+      {
+        "beforeParagraph": 2,
+        "text": "Christmas camps with confirmed dates"
+      },
+      {
+        "beforeParagraph": 6,
+        "text": "Ran last winter, not yet announced"
+      },
+      {
+        "beforeParagraph": 7,
+        "text": "Staying into January or February?"
+      },
+      {
+        "beforeParagraph": 8,
+        "text": "Before you book"
+      }
+    ],
+    "faq": [
+      {
+        "question": "When are the Christmas holidays for international schools in Chiang Mai?",
+        "answer": "It varies. Prem breaks from 14 December, Grace's last day is 17 December with pupils back on 5 January, and APIS from 19 December with pupils back on 11 January. Check your own school's calendar before booking a camp."
+      },
+      {
+        "question": "Which Chiang Mai camps run between Christmas and New Year?",
+        "answer": "[Prime Kids Club](/camps/prime-kids-club-sports-camp) runs every weekday from 14 December to 8 January, and [Beaver Club](/camps/beaver-club-truepath-camps) runs a New Year camp from 28 December to 1 January."
+      },
+      {
+        "question": "How much does a Christmas camp in Chiang Mai cost?",
+        "answer": "The confirmed day camps for Christmas 2026 cost from 6,500 baht a week (the Prime Kids early bird rate) to 15,000 baht a week for a Traidhos English or tennis camp, with lunch included. Beaver Club's prices are on request."
+      },
+      {
+        "question": "Can visiting families join a camp in Chiang Mai?",
+        "answer": "Yes. The camps in this guide are open to children who do not attend a particular school, and the Traidhos and APIS winter camps in January and February are aimed at visiting families."
+      },
+      {
+        "question": "Are there residential camps in Chiang Mai over the winter?",
+        "answer": "Not over Christmas itself, as far as we can find. Traidhos runs residential English weeks from 24 January, and the APIS Winter Camp from 17 January has weekly and full boarding."
+      }
+    ],
+    "metaDescription": "Christmas holiday camps in Chiang Mai for December 2026: confirmed dates, ages, hours and prices for Prime Kids Club, Beaver Club and Traidhos, plus school break dates.",
+    "keywords": [
+      "christmas camp chiang mai",
+      "chiang mai holiday camp december 2026",
+      "winter camp chiang mai",
+      "kids camp chiang mai christmas",
+      "chiang mai school holidays december",
+      "traidhos winter camp",
+      "chiang mai sports camp kids"
+    ]
+  },
+  {
     "slug": "yi-peng-loy-krathong-chiang-mai-with-kids",
     "title": "Yi Peng and Loy Krathong 2026 in Chiang Mai with Kids",
     "category": "Local Life",

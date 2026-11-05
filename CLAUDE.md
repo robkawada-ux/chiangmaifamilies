@@ -29,7 +29,8 @@ Chiang Mai Families is the Chiang Mai sister site of BKK Families (bkkfamilies.c
 
 ## Site architecture
 - Live sections: home, /schools (directory + detail pages), /activities (directory + detail pages), /blog (titled "Guides"; first article "Yi Peng and Loy Krathong 2026 in Chiang Mai with Kids" published 4 Nov 2026, hero photo supplied by Rob at public/images/articles/yi-peng-loy-krathong-chiang-mai-with-kids/; refresh the same URL each November), /contact (incl. #advertise).
-- Not built yet for Chiang Mai: healthcare, camps, playgroups, learning support, school breaks. `schoolBreaks.ts` and `schoolFees.ts` are kept with empty data because the school pages use their types and helpers.
+- Camps (added 5 Nov 2026): /camps directory and /camps/[slug] pages, ported from phuketfamilies (`src/lib/camps.ts`, `CampsDirectory.tsx`, `featured.ts`). 11 operators, 19 camp weeks, researched 5 Nov 2026. Camp seasons are `BREAK_WINDOWS` in `schoolBreaks.ts` (winter-2026, other-2027 for Jan to Feb term-time camps, spring-2027, songkran-2027, summer-2027), with Prem, Grace and APIS break dates in their summaries. Some facts come from public listings rather than the operator's page; `worthKnowing` says so. Left out: Able to Share camps (include an elephant sanctuary visit), Progression climbing camps (last dates found were Dec 2024), 50FLY (no ages, conflicting location). Guide: /blog/christmas-holiday-camps-chiang-mai-2026, with its own share card in `public/images/og/blog/`.
+- Not built yet for Chiang Mai: healthcare, playgroups, learning support, school breaks page. `schoolBreaks.ts` and `schoolFees.ts` are kept with empty data because the school pages use their types and helpers.
 - Articles are TypeScript objects in `src/lib/articles.ts`. Body paragraphs support `[label](/path)` links and `**bold**`. Byline renders as "by Chiang Mai Families".
 - No legacy redirects (new domain). The bkkfamilies redirect map was removed from `next.config.mjs`.
 

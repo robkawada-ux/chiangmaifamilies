@@ -24,6 +24,7 @@ export default function Footer() {
             </h3>
             <ul className="mt-3 space-y-2 text-sm text-white/80">
               <li><Link href="/schools" className="hover:text-white">Schools</Link></li>
+              <li><Link href="/camps" className="hover:text-white">Holiday Camps</Link></li>
               <li><Link href="/activities" className="hover:text-white">Things to Do</Link></li>
               <li><Link href="/blog" className="hover:text-white">Guides</Link></li>
               <li><Link href="/contact" className="hover:text-white">Contact</Link></li>

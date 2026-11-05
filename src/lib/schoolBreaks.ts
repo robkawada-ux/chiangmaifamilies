@@ -52,8 +52,56 @@ export interface BreakWindow {
   summary: string;
 }
 
-// Camp seasons for a future Chiang Mai camps directory.
-export const BREAK_WINDOWS: BreakWindow[] = [];
+// Camp seasons for the Chiang Mai camps directory (/camps), 5 Nov 2026.
+export const BREAK_WINDOWS: BreakWindow[] = [
+  {
+    id: "winter-2026",
+    label: "Christmas and New Year 2026/27",
+    shortLabel: "Christmas 2026",
+    start: "2026-12-14",
+    end: "2027-01-08",
+    coreStart: "2026-12-21",
+    coreEnd: "2027-01-01",
+    summary:
+      "Chiang Mai schools break up at different times: Prem from 14 December, Grace and APIS from 19 December, with Grace back on 5 January and APIS on 11 January. Camps run from 14 December to 8 January, so check your own school's dates first.",
+  },
+  {
+    id: "other-2027",
+    label: "January to February 2027, for visiting families",
+    shortLabel: "Jan to Feb 2027",
+    start: "2027-01-11",
+    end: "2027-02-27",
+    summary:
+      "The cool season brings visiting families, and a few Chiang Mai camps run week by week through term time for them, including residential English weeks. Useful if your child is not in school here.",
+  },
+  {
+    id: "spring-2027",
+    label: "February half term 2027",
+    shortLabel: "February 2027",
+    start: "2027-02-08",
+    end: "2027-02-19",
+    summary:
+      "Half term dates vary: Prem's is 8 to 12 February. Check your own school's calendar before booking.",
+  },
+  {
+    id: "songkran-2027",
+    label: "Easter and Songkran 2027",
+    shortLabel: "Songkran 2027",
+    start: "2027-03-29",
+    end: "2027-04-18",
+    summary:
+      "Prem breaks from 29 March to 16 April, and Grace from 10 to 18 April. Songkran itself is 13 to 15 April.",
+  },
+  {
+    id: "summer-2027",
+    label: "Summer 2027",
+    shortLabel: "Summer 2027",
+    start: "2027-06-14",
+    end: "2027-08-13",
+    summary:
+      "The main camp season. In 2026 Chiang Mai summer camps ran from mid June to mid August. Most operators publish summer dates between February and April, so many listings below still show the dates they ran in 2026.",
+  },
+];
 
 export const CALENDAR_LAST_VERIFIED = "2026-09-12";
 

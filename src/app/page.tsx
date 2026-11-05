@@ -155,15 +155,15 @@ export default function HomePage() {
                   Schools, healthcare and camps in Bangkok on {SISTER_SITE.name}.
                 </p>
               </a>
-              <a
-                href="https://www.phuketfamilies.com"
+              <Link
+                href="/camps"
                 className="rounded-xl bg-purple p-6 text-white transition hover:opacity-90"
               >
-                <h3 className="font-heading text-xl font-bold">Phuket ↗</h3>
+                <h3 className="font-heading text-xl font-bold">Holiday Camps</h3>
                 <p className="mt-1 text-sm text-white/90">
-                  Island schools and family life on Phuket Families.
+                  Camp weeks for Christmas, Songkran and summer, with real dates.
                 </p>
-              </a>
+              </Link>
               <Link
                 href="/activities"
                 className="rounded-xl bg-orange p-6 text-white transition hover:opacity-90"

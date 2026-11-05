@@ -42,6 +42,7 @@ export const CONTACT_EMAIL = "info@chiangmaifamilies.com";
  */
 const SECTION_CARDS = [
   "/schools",
+  "/camps",
   "/activities",
   "/blog",
 ];
