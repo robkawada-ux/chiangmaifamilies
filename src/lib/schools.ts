@@ -87,6 +87,7 @@ const SCHOOL_ENTRIES: School[] = [
   {
     name: "Lanna International School Thailand",
     slug: "lanna-international-school",
+    photo: "/images/schools/lanna-international-school.jpg",
     areas: ["southwest"],
     curricula: ["British"],
     budget: "over400k",
