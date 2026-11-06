@@ -473,7 +473,7 @@ export const CAMPS: Camp[] = [
     "name": "Lanna International School Summer School",
     "area": "Southwest Chiang Mai",
     "description": "Lanna International School runs a summer school for ages 5 to 14, open to children from other schools, in two-week sessions built on units from the International Primary Curriculum with a different science theme each week. Children aged 8 to 14 also swim every day. Lunch is included.",
-    "worthKnowing": "These are the 2026 dates and prices. Summer 2026 cost 32,000 baht per two-week session, or 29,000 early bird, with 15% off for both sessions. Lanna usually publishes summer dates in spring.",
+    "worthKnowing": "These are the 2026 dates and prices. Summer 2026 cost 32,000 baht per two-week session, or 29,000 early bird, with 15% off for both sessions. LANNA usually publishes summer dates in spring.",
     "website": "https://www.lannaist.ac.th/academics/international-summer-school/",
     "sessions": [
       {

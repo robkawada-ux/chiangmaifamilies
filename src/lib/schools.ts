@@ -95,7 +95,7 @@ const SCHOOL_ENTRIES: School[] = [
     founded: 1993,
     ageRange: "Ages 2 to 18",
     languageOfInstruction: "English",
-    description: "Lanna opened in 1993 as Northern Thailand's first British international school, growing from a small family-run school into a campus in Baan Waen, Hang Dong, with more than 900 students from around 40 countries. It is non-religious.\n\nIt follows the English National Curriculum, with the International Early Years and Primary Curricula in the younger years, then Cambridge IGCSEs and A Levels. Lanna is WASC accredited and the only FOBISIA member in Northern Thailand, and opened a new STEAM Innovation Centre in 2026.\n\nAlongside Prem, it is one of the two most expensive schools in Chiang Mai, and the default choice for families who want a full British pathway to A Level. Expect a registration fee of around 90,000 THB on entry.",
+    description: "LANNA opened in 1993 as Northern Thailand's first British international school, growing from a small family-run school into a campus in Baan Waen, Hang Dong, with more than 900 students from around 40 countries. It is non-religious.\n\nIt follows the English National Curriculum, with the International Early Years and Primary Curricula in the younger years, then Cambridge IGCSEs and A Levels. LANNA is WASC accredited and the only FOBISIA member in Northern Thailand, and opened a new STEAM Innovation Centre in 2026.\n\nAlongside Prem, it is one of the two most expensive schools in Chiang Mai, and the default choice for families who want a full British pathway to A Level. Expect a registration fee of around 90,000 THB on entry.",
   },
   {
     name: "Panyaden International School",

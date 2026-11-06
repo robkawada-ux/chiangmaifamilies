@@ -31,7 +31,7 @@ const FAQ = [
   },
   {
     q: "Do I have to attend the school to join its camp?",
-    a: "Usually not. Lanna, NIS and the Traidhos camps on the Prem campus say they are open to children from other schools. Where a school does not say, the listing tells you to ask.",
+    a: "Usually not. LANNA, NIS and the Traidhos camps on the Prem campus say they are open to children from other schools. Where a school does not say, the listing tells you to ask.",
   },
   {
     q: "Why do some listings show last year's dates?",
